@@ -1,0 +1,31 @@
+/*
+ Theme Name:     Responsive Child
+ Theme URI:      http://phoenixindustrialmaintenance.dev/responsive-child/
+ Description:    Responsive Child Theme
+ Author:         Joel Stubbs
+ Author URI:     http://joelstubbs.co.uk
+ Template:       responsive
+ Version:        1.0.0
+*/
+
+@import url("../responsive/style.css");
+
+.menu{
+	border-radius: 5px;
+}
+
+ul.menu > li:hover{
+	border-radius: 5px;
+}
+
+.menu a{
+	font-size: 18px;
+}
+
+.featured-title{
+	font-size: 50px;
+}
+
+.call-to-action a.button{
+	border-radius: 5px;
+}
