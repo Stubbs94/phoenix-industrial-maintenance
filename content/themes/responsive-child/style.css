@@ -39,3 +39,41 @@ ul.menu > li:hover{
 .call-to-action a.button{
 	border-radius: 5px;
 }
+
+#featured-content{
+	color: white;
+}
+
+#featured {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #222;
+	border: 1px solid #222;
+	border-radius: 5px;
+}
+
+.featured-subtitle {
+	padding-left: 40px;
+	text-align: left;
+	margin-top: 10px;
+	font-size: 49px;
+}
+
+.featured-title {
+	font-size: 55px;
+	text-align: left;
+	padding-left: 40px;
+	color: gray;
+}
+
+#featured p {
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 27px;
+	padding: 0 20px 0 40px;
+	text-align: left;
+}
+
+#featured{
+	background-color: green;
+}
