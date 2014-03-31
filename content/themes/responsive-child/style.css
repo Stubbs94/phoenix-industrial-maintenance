@@ -24,6 +24,10 @@
 	margin: 0 auto;
 }
 
+body.custom-background {
+	background-size: 1437px 733px;
+}
+
 ul.menu > li:hover{
 	border-radius: 5px;
 }
@@ -63,7 +67,12 @@ ul.menu > li:hover{
 	font-size: 55px;
 	text-align: left;
 	padding-left: 40px;
-	color: gray;
+	color: white;
+}
+
+#featured-image {
+	margin: 40px 0 0 0;
+	color: white;
 }
 
 #featured p {
@@ -74,6 +83,35 @@ ul.menu > li:hover{
 	text-align: left;
 }
 
-#featured{
-	background-color: green;
+#featured {
+	background-color: rgba(16, 64, 137, 0.6);
+}
+
+#logo {
+	float: left;
+	margin: 0;
+	border-radius: 5px;
+	width: 300px;
+	height: 151px;
+}
+
+#header {
+	margin: 0;
+	background-color: #104089;
+	opacity: 0.95;
+}
+
+#footer a {
+	color: #000000;
+	font-weight: 20px;
+}
+
+.copyright {
+	text-align: left;
+	color: black;
+}
+
+.powered {
+	text-align: right;
+	color: black;
 }
